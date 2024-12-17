@@ -3,14 +3,20 @@ package battleship;
 public class Cruiser extends Ship {
 	final static int cruiserLength = 3;
 	
-	public Cruiser(){
-		super(cruiserLength);
-	}
 	
+	/**
+	 * call the constructor in the super class with the appropriate hard-coded length value for each ship
+	 */
+	public Cruiser(){
+		super(Cruiser.cruiserLength);
+	}
+	/**
+	 * Returns one of the strings
+	 */
 	@Override
 	public String getShipType() {
-		String cruiser = "cruiser";
-		return cruiser;
+		
+		return "cruiser";
 		
 		
 	}
