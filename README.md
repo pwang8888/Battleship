@@ -22,8 +22,4 @@ The game demonstrates **Object-Oriented Programming (OOP)** concepts such as inh
    - `s`: Sunken ship  
 - **Game Over**: Game ends when all ships are sunk.
 
----
 
-## Project Structure
-
-src/ ├── BattleshipGame.java # Main class to run the game ├── Ocean.java # Gameboard and logic for ship placement ├── Ship.java # Abstract class for ship behavior ├── Battleship.java # Battleship ship (length 4) ├── Cruiser.java # Cruiser ship (length 3) ├── Destroyer.java # Destroyer ship (length 2) ├── Submarine.java # Submarine ship (length 1) ├── EmptySea.java # Represents empty spots in the grid ├── ShipTest.java # Unit tests for Ship class └── OceanTest.java # Unit tests for Ocean class
