@@ -1,20 +1,28 @@
-Battleship Game
-Overview
-A simplified, console-based Battleship Game implemented in Java. The player competes against the computer to sink all ships on a 10x10 grid using the fewest shots.
+# Battleship Game
 
-Features
-Random Ship Placement: Ships are placed randomly without overlapping.
-Game Logic: Includes Battleship, Cruiser, Destroyer, and Submarine.
-User Feedback: Displays hits, misses, and sunken ships.
-Object-Oriented Design: Uses inheritance, encapsulation, and polymorphism.
-Project Structure
-bash
-Copy code
-src/
-├── BattleshipGame.java      # Main game logic
-├── Ocean.java               # Gameboard and ship placement
-├── Ship.java                # Abstract ship class
-├── [ShipType].java          # Battleship, Cruiser, Destroyer, Submarine
-├── EmptySea.java            # Represents empty ocean space
-├── ShipTest.java            # Unit tests for Ship class
-└── OceanTest.java           # Unit tests for Ocean class
+## Overview
+
+This project implements a **simplified Battleship Game** in Java. It is a console-based, one-player game where the player attempts to sink the computer's fleet of ships placed on a 10x10 grid.
+
+The game demonstrates **Object-Oriented Programming (OOP)** concepts such as inheritance, polymorphism, and encapsulation.
+
+---
+
+## Features
+
+- **Random Ship Placement**: Ships are placed randomly without overlapping or touching.
+- **Game Mechanics**:
+   - Ships: Battleship (4), Cruiser (3), Destroyer (2), Submarine (1).
+   - Shooting: Player shoots at coordinates (row, column).
+   - Feedback: Indicates hits, misses, and sunk ships.
+- **Grid Display**:
+   - `.`: Unfired location  
+   - `x`: Hit ship  
+   - `-`: Missed shot  
+   - `s`: Sunken ship  
+- **Game Over**: Game ends when all ships are sunk.
+
+---
+
+## Project Structure
+
